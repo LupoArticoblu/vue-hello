@@ -12,7 +12,8 @@
 <body>
     <div id="app">
       <input type="text" v-model="messaggio">
-      <h1>{{messaggio}}</h1>
+      <input type="text" v-model="sottolinea"
+      <h1 v-bind:class='sottolinea'>{{messaggio}}</h1>
 
     </div>  
 
