@@ -2,10 +2,14 @@ const { createApp } = Vue;
 
 createApp({
     data(){
-        return {messaggio : "Hello Vue"}
-    }
+        //inserire qui i dati
+        return {
+          //variabili di ritorno
+          messaggio : "Hello Vue"
+        }
+    },
 
     methods:{
-        //Da rivedere
+        //inserire qui le funzioni
     }
 }).mount('#app')
